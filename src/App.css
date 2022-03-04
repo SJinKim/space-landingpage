@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+/*==================typography=========================*/
+.p__barlow {
+  font-family: var(--font-base);
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 0.17rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  line-height: 29.9px;
+  font-size: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subheading__barlow {
+  font-family: var(--font-base);
+  color: var(--color-tertiary);
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  line-height: 29.9px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.textheading__bellefair {
+  font-family: var(--font-alt);
+  color: var(--color-tertiary);
+  font-weight: 400;
+  font-size: 150px;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.textheading2__bellefair {
+  font-family: var(--font-alt);
+  color: var(--color-tertiary);
+  font-size: 100px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+.textheading3__bellefair {
+  font-family: var(--font-alt);
+  color: var(--color-tertiary);
+  font-size: 56px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textheading4__bellefair {
+  font-family: var(--font-alt);
+  color: var(--color-tertiary);
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.textheading5__barlow {
+  font-family: var(--font-base);
+  color: var(--color-tertiary);
+  font-size: 28px;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }

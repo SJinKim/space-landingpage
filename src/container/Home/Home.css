@@ -1,0 +1,74 @@
+.app__home {
+  background-image: url(/assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app__home-line {
+  width: 473px;
+  opacity: 0.4;
+  margin-left: 14.6rem;
+
+  z-index: 2;
+}
+
+.app__home-content_about {
+  width: 489.5px;
+  height: 382px;
+}
+
+.app__home-navigator {
+  width: 830px;
+  height: 96px;
+  padding: 2rem;
+  right: 1rem;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.275);
+}
+
+.app__home-navigator_link {
+  transition: 0.5s ease;
+}
+
+.app__home-navigator_link:hover {
+  border-bottom: 3px solid white;
+  padding: 35px;
+}
+
+.app__home-content_outerbtn {
+  border: 1px solid white;
+  border-radius: 50%;
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.467) 30%, transparent 70%);
+  background-repeat: no-repeat;
+  transition: background-size 1s, color 1s;
+  background-size: 0 0;
+  background-position: 50% 50%;
+
+  width: 475px;
+  height: 475px;
+}
+
+.app__home-content_btn {
+  border: 1px solid white;
+
+  width: 274px;
+  height: 274px;
+
+  border-radius: 50%;
+  background-color: white;
+}
+
+.app__home-content_outerbtn:hover {
+  background-size: 200% 200%;
+}
