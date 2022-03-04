@@ -1,3 +1,3 @@
-# Space Landingpage with React
+# Space-Website Landingpage
 
 Landing page made with react and bootstrap
