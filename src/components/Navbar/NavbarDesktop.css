@@ -1,0 +1,49 @@
+.app__home-line {
+  width: 473px;
+  opacity: 0.4;
+  margin-left: 14.6rem;
+
+  z-index: 2;
+}
+
+.app__home-content_about {
+  width: 30.5rem;
+  height: 382px;
+}
+
+.app__home-navigator {
+  width: 840px;
+  height: 96px;
+  padding: 2rem;
+  right: 0.1rem;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.275);
+}
+
+/*not sure if i do this*/
+/* .app__home-navigator_link {
+  transition: 0.5s ease;
+} */
+
+.app__home-navigator_link:hover {
+  border-bottom: 3px solid white;
+  padding: 35px;
+}
+
+@media screen and (min-width: 1950px) {
+  .app__home-line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1891px) {
+  .app__home-line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .app__home-navigator {
+    width: auto;
+  }
+}
