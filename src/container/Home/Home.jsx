@@ -1,4 +1,5 @@
 import { NavbarDesktop } from '../../components'
+import { Link } from 'react-router-dom'
 import './Home.css'
 
 const Home = () => {
@@ -20,7 +21,9 @@ const Home = () => {
           className='app__home-content_outerbtn mx-auto d-flex flex-row justify-content-center align-items-center'
         >
           <div className='app__home-content_btn d-flex justify-content-center align-items-center'>
-            EXPLORE
+            <Link className='app__home-content_btn-link' to='/destination'>
+              EXPLORE
+            </Link>
           </div>
         </a>
       </div>

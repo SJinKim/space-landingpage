@@ -21,16 +21,16 @@ const NavbarDesktop = () => {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='d-flex flex-row justify-content-between align-items-center app__home-navigator'>
-              <Nav.Link className='app__home-navigator_link' href='#home'>
+              <Nav.Link className='app__home-navigator_link' href='/'>
                 00 Home
               </Nav.Link>
-              <Nav.Link className='app__home-navigator_link' href='#home'>
+              <Nav.Link className='app__home-navigator_link' href='/destination'>
                 01 Destination
               </Nav.Link>
-              <Nav.Link className='app__home-navigator_link' href='#home'>
+              <Nav.Link className='app__home-navigator_link' href='/crew'>
                 02 Crew
               </Nav.Link>
-              <Nav.Link className='app__home-navigator_link' href='#home'>
+              <Nav.Link className='app__home-navigator_link' href='/technology'>
                 03 Technology
               </Nav.Link>
             </Nav>

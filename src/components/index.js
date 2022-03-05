@@ -1,4 +1,4 @@
 import NavbarDesktop from './Navbar/NavbarDesktop'
-import NavbarSmall from './Destination/NavbarSmall'
+import DescriptionWindow from './Destination/DescriptionWindow'
 
-export { NavbarDesktop, NavbarSmall }
+export { NavbarDesktop, DescriptionWindow }

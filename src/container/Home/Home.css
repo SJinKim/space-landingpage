@@ -9,6 +9,10 @@
   justify-content: space-between;
 }
 
+.app__home a {
+  color: inherit;
+}
+
 .app__home-line {
   width: 473px;
   opacity: 0.4;
@@ -69,12 +73,24 @@
   background-size: 200% 200%;
 }
 
+.app__home-content_btn-link {
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (max-width: 1080px) {
   .app__home {
+    background-image: url(/assets/home/background-home-tablet.jpg);
     height: 100%;
   }
   .app__home-content {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__home {
+    background-image: url(/assets/home/background-home-mobile.jpg);
   }
 }
 
