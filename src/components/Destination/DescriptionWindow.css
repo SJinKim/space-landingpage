@@ -1,0 +1,61 @@
+.app__descriptionWindow {
+  width: 27%;
+  height: 100%;
+}
+
+.app__descriptionWindow ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app__descriptionWindow h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: white;
+}
+
+.app__descriptionWindow p {
+  /* border: 1px solid white; */
+  display: table-cell;
+}
+
+.app__descriptionWindow-navigator li {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding: 1px;
+
+  transition: 0.5 linear;
+  text-transform: uppercase;
+}
+
+.app__descriptionWindow-navigator li:hover {
+  border-bottom: 2px solid white;
+}
+
+.app__descriptionWindow-navigator {
+  width: 65%;
+}
+
+.divider {
+  border: 1px solid white;
+  width: 100%;
+  opacity: 0.4;
+  margin: 30px 0;
+}
+
+.app__descriptionWindow-information {
+  width: 100%;
+  display: flex;
+}
+
+.app__descriptionWindow-information div {
+  width: 100%;
+  height: 100%;
+}

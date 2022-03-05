@@ -1,18 +1,23 @@
 import React from 'react'
 import { NavbarDesktop, DescriptionWindow } from '../../components'
+import { moon } from '../../assets'
+import './Destination.css'
 
-const Destination = () => {
+const Destination = ({ title, avg, traveltime }) => {
   return (
-    <>
+    <div className='app__destination'>
       <NavbarDesktop />
-      <p>
-        <span>01</span> pick your destination
-      </p>
-      <div className='d-flex flex-row justify-content-between align-items-center'>
-        <img src='../../../assets/destination/image-moon.png' alt='moon' />
-        <DescriptionWindow />
+      <div className='app__destination-content d-flex flex-column align-items-start mb-4 b'>
+        <p className='textheading5__barlow'>
+          <span style={{ opacity: 0.25 }}>01</span> pick your destination
+        </p>
+        <div />
+        <div className='app__destination-content_planet d-flex justify-content-around align-items-center'>
+          <img src={moon} alt={title} />
+          <DescriptionWindow />
+        </div>
       </div>
-    </>
+    </div>
   )
 }
 
